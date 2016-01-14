@@ -13,6 +13,8 @@
 		359EB05C1C476C0D008EE73C /* NoStoryboardSelfieGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EB05B1C476C0D008EE73C /* NoStoryboardSelfieGramUITests.swift */; };
 		359EB06A1C476F9A008EE73C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EB0691C476F9A008EE73C /* ProfileViewController.swift */; };
 		359EB06C1C477169008EE73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359EB06B1C477169008EE73C /* Assets.xcassets */; };
+		359EB06F1C477D1D008EE73C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EB06D1C477D1D008EE73C /* User.swift */; };
+		359EB0701C477D1D008EE73C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EB06E1C477D1D008EE73C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		359EB05D1C476C0D008EE73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		359EB0691C476F9A008EE73C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		359EB06B1C477169008EE73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		359EB06D1C477D1D008EE73C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		359EB06E1C477D1D008EE73C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				359EB03B1C476C0D008EE73C /* AppDelegate.swift */,
 				359EB0691C476F9A008EE73C /* ProfileViewController.swift */,
+				359EB06D1C477D1D008EE73C /* User.swift */,
+				359EB06E1C477D1D008EE73C /* Post.swift */,
 				359EB06B1C477169008EE73C /* Assets.xcassets */,
 				359EB0441C476C0D008EE73C /* LaunchScreen.storyboard */,
 				359EB0471C476C0D008EE73C /* Info.plist */,
@@ -254,6 +260,8 @@
 			files = (
 				359EB06A1C476F9A008EE73C /* ProfileViewController.swift in Sources */,
 				359EB03C1C476C0D008EE73C /* AppDelegate.swift in Sources */,
+				359EB06F1C477D1D008EE73C /* User.swift in Sources */,
+				359EB0701C477D1D008EE73C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
